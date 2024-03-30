@@ -3,8 +3,6 @@ Keepcoding Big Data Processing
 
 # Práctica Final: Big Data y Machine Learning
 
-## Drawing
-
 La práctica consiste en diversos ejercicios que abarcan conceptos y técnicas claves de Big Data y Machine Learning. Cada uno está diseñado para desafiarte y ayudarte a aplicar lo que has aprendido de manera práctica y efectiva.
 
 ### Ejercicio 1: Multiconjuntos
