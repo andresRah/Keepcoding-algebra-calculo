@@ -52,6 +52,21 @@ Deberás utilizar SVD para comprimir una imagen en blanco y negro, explorando c�
 - Los valores singulares en Σ representan la "importancia" de cada característica en los datos; valores más grandes significan características más importantes.
 - Al descartar los valores singulares más pequeños (y sus vectores correspondientes), podemos aproximarnos a la matriz original con menos información, logrando así la compresión.
 
+### Cálculo del Error de Reconstrucción
+
+Para evaluar la calidad de la reconstrucción de la imagen utilizando SVD, deberás crear tu propia función que calcule el error de reconstrucción. Este error se define mediante la Suma de Errores Cuadráticos (SSE), dada por la fórmula:
+
+$$
+SSE =  \sum_{i=1}^{n}  \|x_{i} -  \widehat{x}_i \| ^2
+$$
+
+Donde:
+
+- \(x_i\) son los valores de la matriz original \(X\).
+- \(\widehat{x}_i\) son los valores de la matriz reconstruida.
+
+El objetivo de esta función es proporcionar una medida cuantitativa de cuánto difiere la imagen reconstruida de la original. Un SSE menor indica una reconstrucción de mayor fidelidad.
+
 ---
 
 ## Ejercicio 3: Regresión Lineal - Mínimos Cuadrados
