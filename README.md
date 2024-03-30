@@ -1,7 +1,7 @@
 # Keepcoding-algebra-calculo
-Keepcoding Big Data Processing 
+Keepcoding Álgebra Cálculo
 
-# Práctica Final: Big Data y Machine Learning
+# Práctica Final
 
 La práctica consiste en diversos ejercicios que abarcan conceptos y técnicas claves de Big Data y Machine Learning. Cada uno está diseñado para desafiarte y ayudarte a aplicar lo que has aprendido de manera práctica y efectiva.
 
